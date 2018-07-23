@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cluster.Core", "Cluster.Core\Cluster.Core.csproj", "{C93BD7CA-2165-4BD4-AD5C-3C8A67A85EC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cluster.Core", "Cluster.Core\Cluster.Core.csproj", "{C93BD7CA-2165-4BD4-AD5C-3C8A67A85EC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cluster.Admin", "Cluster.Admin\Cluster.Admin.csproj", "{A92B799F-85CD-4A3C-AA52-4F416D126569}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C93BD7CA-2165-4BD4-AD5C-3C8A67A85EC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C93BD7CA-2165-4BD4-AD5C-3C8A67A85EC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C93BD7CA-2165-4BD4-AD5C-3C8A67A85EC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A92B799F-85CD-4A3C-AA52-4F416D126569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A92B799F-85CD-4A3C-AA52-4F416D126569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A92B799F-85CD-4A3C-AA52-4F416D126569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A92B799F-85CD-4A3C-AA52-4F416D126569}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
